@@ -1,4 +1,4 @@
 
 rm -rf ./docs
-ng build
+ng build --base-href=./
 mv ./dist ./docs 
