@@ -21,7 +21,7 @@ exports = module.exports = __webpack_require__("../../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".apple {\n  padding: 20px;\n  border: 1px solid #ccc;\n  color: #ccc;\n  border-radius: 12px;\n}", ""]);
 
 // exports
 
@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../../deployNG/src/app/app.component.pug":
 /***/ (function(module, exports) {
 
-module.exports = "<p>test for deploy 安永</p><router-outlet></router-outlet>"
+module.exports = "<p>test for deploy 安永</p><div class=\"apple\" (click)=\"alert('test')\">test</div><router-outlet></router-outlet>"
 
 /***/ }),
 
