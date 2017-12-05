@@ -1,4 +1,4 @@
 
 rm -rf ./docs
 ng build
-mv ./docs ./dist
+mv ./dist ./docs 
