@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../../deployNG/src/app/app.component.pug":
 /***/ (function(module, exports) {
 
-module.exports = "<p>test for deploy 安永</p><div class=\"apple\" (click)=\"alert('test')\">test</div><router-outlet></router-outlet>"
+module.exports = "<p>test for deploy 安永</p><div class=\"apple\" (click)=\"aa(123)\">test</div><router-outlet></router-outlet>"
 
 /***/ }),
 
@@ -55,6 +55,9 @@ var AppComponent = (function () {
     function AppComponent() {
         this.title = 'app';
     }
+    AppComponent.prototype.aa = function (text) {
+        console.log(text);
+    };
     return AppComponent;
 }());
 AppComponent = __decorate([
